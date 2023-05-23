@@ -6,21 +6,26 @@ public class Main {
         Fiat carroFiat = new Fiat(2022,90000,"Preto",4);
         Hyundai carroHyndai = new Hyundai(2015,20000,"Branco",2);
 
+        System.out.println(carroRenault.toString());
         carroRenault.partidaMotor();
         carroRenault.acelerar();
         carroRenault.freiar();
         System.out.println(" ");
+
+        System.out.println(carroFiat.toString());
         carroFiat.partidaMotor();
         carroFiat.acelerar();
         carroFiat.freiar();
         System.out.println(" ");
+
+        System.out.println(carroHyndai.toString());
         carroHyndai.partidaMotor();
         carroHyndai.acelerar();
         carroHyndai.freiar();
         System.out.println(" ");
 
-        System.out.println(carroRenault.toString());
-        System.out.println(carroFiat.toString());
-        System.out.println(carroHyndai.toString());
+
+
+
     }
 }
